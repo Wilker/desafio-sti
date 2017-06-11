@@ -1,0 +1,15 @@
+
+nbproject/private/private\.properties
+
+nbproject/private/
+
+
+nbproject/
+/nbproject/project.properties
+/nbproject/project.xml
+
+*.class
+
+build\.xml
+
+manifest\.mf
