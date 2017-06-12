@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sti;
+package sti.model;
 
 /**
  *
@@ -30,11 +30,11 @@ public class Aluno {
     public String[] generateEmail() {
         String[] options = new String[5];
         String[] nome = this.nome.toLowerCase().split(" ");
-        options[0] = nome[0] + "_" + nome[1];
-        options[1] = nome[0] + nome[1].charAt(0) + nome[2].charAt(0);
-        options[2] = nome[0] + nome[2];
-        options[3] = nome[0].charAt(0) + nome[2];
-        options[4] = nome[0].charAt(0) + nome[1] + nome[2];
+        options[0] = nome[0] + "_" + nome[1]+"@id.uff.br";
+        options[1] = nome[0] + nome[1].charAt(0) + nome[2].charAt(0)+"@id.uff.br";
+        options[2] = nome[0] + nome[2]+"@id.uff.br";
+        options[3] = nome[0].charAt(0) + nome[2]+"@id.uff.br";
+        options[4] = nome[0].charAt(0) + nome[1] + nome[2]+"@id.uff.br";
 
         return options;
     }
